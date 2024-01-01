@@ -1,0 +1,26 @@
+{
+  "name": "number2english_word",
+  "version": "1.0.4",
+  "description": "Integer number to english word",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringkubd/number2word.git"
+  },
+  "keywords": [
+    "number",
+    "2",
+    "text",
+    "number2word",
+    "number2text"
+  ],
+  "author": "Anwar Jahid <ajr.jahid@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ringkubd/number2word/issues"
+  },
+  "homepage": "https://github.com/ringkubd/number2word#readme"
+}

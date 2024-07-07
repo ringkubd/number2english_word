@@ -1,6 +1,6 @@
 {
   "name": "number2english_word",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "Integer number to english word",
   "main": "index.js",
   "scripts": {

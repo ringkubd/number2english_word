@@ -5,7 +5,7 @@ let lt20 = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", 
 
 function number2wordEnglish(val){
     let len;
-    val = parseFloat(val);
+    
     // special cases
     if (val[0] === "-") { return "Negative " + number2wordEnglish(val.slice(1)); }
     if (val === "0") { return "Zero"; }

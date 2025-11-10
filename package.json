@@ -1,10 +1,14 @@
 {
   "name": "number2english_word",
-  "version": "1.0.6",
-  "description": "Integer number to english word",
+  "version": "2.2.0",
+  "description": "Convert numbers to English words with support for integers, decimals, and currency formatting (USD, GBP, EUR, INR, JPY, BDT)",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,json,md}\""
   },
   "repository": {
     "type": "git",
@@ -15,12 +19,32 @@
     "2",
     "text",
     "number2word",
-    "number2text"
+    "number2text",
+    "number-to-words",
+    "currency",
+    "decimal",
+    "english",
+    "words",
+    "converter"
   ],
   "author": "Anwar Jahid <ajr.jahid@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ringkubd/number2word/issues"
   },
-  "homepage": "https://github.com/ringkubd/number2word#readme"
+  "homepage": "https://github.com/ringkubd/number2word#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ]
 }
